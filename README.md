@@ -2,7 +2,7 @@
  Ticket bot by <a href="https://github.com/elbkr/ticket-bot">elbkr</a>
   </p>
   
-##### Special Thanks To [444x](https://github.com/unf6) For Updating To V14
+##### Modified by [kirixen](https://github.com/kirixen)
 
 ## Features
 - Multi guild!
@@ -14,25 +14,9 @@
 - Log ticket actions
 - Much more!
 
-<img src="readme/splash.png" width="3000" alt="splash">
-
-## Contributing
-- Want to contribute? Feel free to make any changes you want
-1. Fork or clone the repo
-2. Make any changes you want (You can also see `todo` file)
-3. Open a pull request explaining what changes you've made
-4. I ([el bkr](https://github.com/elbkr)) will review it and accept it :D
-
-## Installation
-
 ### Requirements
 - Node v18 or higher
-
-### Getting the files
-1. GitHub CLI: `git clone https://github.com/elbkr/ticket-bot`
-2. Download and extract the zip
-3. Open with GitHub Desktop
-
+  
 ### Creating the application
 1. Create an application in [Discord Developer Portal](https://discord.com/developers/applications)
 2. Create a BOT and Copy the BOT token
@@ -51,6 +35,11 @@ https://discord.com/api/oauth2/authorize?client_id=REPLACE_THIS&permissions=8&sc
 5. Paste the URL into `.env` file  at `MONGO` line
 
 *The URL looks like this:* `mongodb+srv://username:password@clusterName.pjxpv.mongodb.net/MyFirstDatabase?retryWrites=true&w=majority`
+
+### Getting Pastebin API
+1. Login or register into [pastebin](https://pastebin.com/login)
+2. Get the api key on [here](https://pastebin.com/doc_api)
+5. Paste the api key into `.env` file  at `PASTEBIN_API_KEY` line
 
 ### Changing ticket topics
 1. Go to `src/events/interactions/buttonPress.js` file
@@ -74,6 +63,7 @@ After the configuration, the `.env` file should look like this:
 TOKEN=SuPerReALToken.BelIeVe_Me_itS_ReaL
 MONGO=mongodb+srv://username:password@clusterName.pjxpv.mongodb.net/MyFirstDatabase?retryWrites=true&w=majority
 CLIENT_ID=521311050193436682
+PASTEBIN_API_KEY=required
 ```
 
 ### Running the BOT
