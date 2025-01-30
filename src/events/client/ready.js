@@ -32,7 +32,7 @@ export default class Ready extends Event {
             tag: "Ready",
         });
         this.client.logger.log(
-            `Watching ${this.client.guilds.cache.size} servers | ${allMembers.size} members | ${allChannels.size} channels`,
+            `Watching ${client.guilds.cache.size} servers | ${allChannels.size} channels`,
             {
                 tag: "Data",
             }
