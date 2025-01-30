@@ -1,8 +1,7 @@
  <p align ="center">
- Ticket bot by <a href="https://github.com/elbkr/ticket-bot">elbkr</a>
+ Ticket bot by <a href="https://github.com/teamminepvt">elbkr</a>
   </p>
   
-##### Modified by [kirixen](https://github.com/kirixen)
 
 ## Features
 - Multi guild!
