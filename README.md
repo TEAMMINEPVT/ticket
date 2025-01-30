@@ -1,5 +1,5 @@
  <p align ="center">
- Ticket bot by <a href="https://github.com/teamminepvt">elbkr</a>
+ Ticket bot by <a href="https://github.com/teamminepvt">TEAM MINE</a>
   </p>
   
 
