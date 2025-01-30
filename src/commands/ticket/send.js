@@ -39,16 +39,19 @@ export default class Send extends Interaction {
     
         let emb = new EmbedBuilder()
           .setColor("#2f3136")
-          .setTitle("Open a ticket")
+          .setTitle("🪐 TICKET SYSTEM 🪐")
           .setDescription(
-           "Press the button below to open a ticket"
+           "- Create For Help
+              - Create For Sponsorship
+              - Cretate For Buy
+              - Click The Below Button For Create"
           );
     
         let row = new ActionRowBuilder().addComponents(
           new ButtonBuilder()
             .setCustomId("open")
             .setLabel("Open ticket")
-            .setEmoji("✉️")
+            .setEmoji("<:tm_mail:1330440193207042070>")
             .setStyle(ButtonStyle.Secondary)
         );
     
