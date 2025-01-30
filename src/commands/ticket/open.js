@@ -106,24 +106,24 @@ export default class Open extends Interaction {
             .setPlaceholder("Choose topic")
             .addOptions([
               {
-                label: "Server questions",
-                value: "questions",
-                emoji: "❓",
+                label: "rewarss",
+                value: "rewards",
+                emoji: "🎁",
               },
               {
-                label: "Mute or ban appeal",
-                value: "appeal",
+                label: "Report",
+                value: "report",
                 emoji: "🔇",
               },
               {
-                label: "Report an user",
-                value: "report",
-                emoji: "😡",
+                label: "Partnership",
+                value: "partnership",
+                emoji: "🌟",
               },
               {
-                label: "Contact the owners",
-                value: "owners",
-                emoji: "👑",
+                label: "Buy",
+                value: "Buy",
+                emoji: "🛒",
               },
             ])
         );
@@ -161,7 +161,7 @@ export default class Open extends Interaction {
           const row = new ActionRowBuilder().addComponents(
             new ButtonBuilder()
               .setCustomId("close")
-              .setLabel("Close ticket")
+              .setLabel("Close")
               .setEmoji("🔒")
               .setStyle(ButtonStyle.Secondary)
           );
